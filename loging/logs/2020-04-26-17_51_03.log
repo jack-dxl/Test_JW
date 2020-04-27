@@ -1,0 +1,86 @@
+2020-04-26 17:51:03,055 - INFO - 打开浏览器，开始登录
+2020-04-26 17:51:05,597 - INFO - 打开网址：http://10.0.250.192:9090/sso/login?service=http://10.0.250.188/#
+2020-04-26 17:51:08,279 - INFO - 登录成功
+2020-04-26 17:51:08,280 - INFO - 开始执行用例
+2020-04-26 17:51:08,284 - INFO - 3.创建员工-失败 性别未选、输入姓名、手机号、是否主职
+2020-04-26 17:51:11,284 - INFO - 点击元素 by .el-submenu__title
+2020-04-26 17:51:25,151 - INFO - 点击元素 by li.el-submenu.is-opened>ul>li:nth-child(1)
+2020-04-26 17:51:34,307 - INFO - 点击元素 by .el-tree-node__content
+2020-04-26 17:51:37,633 - INFO - 点击元素 by div.el-tree-node__children>div:nth-child(1)>div
+2020-04-26 17:51:46,779 - INFO - 点击元素 by div.el-col.el-col-24>button:nth-child(1)
+2020-04-26 17:51:51,474 - INFO - 输入文本测试员工2
+2020-04-26 17:51:51,941 - INFO - 输入文本18560000002
+2020-04-26 17:51:51,941 - INFO - 点击元素 by div.block-contect.el-col.el-col-24>div>form>div:nth-child(2)>div>div>div>div>input
+2020-04-26 17:51:53,046 - INFO - 点击元素 by [x-placement="bottom-start"]>div>div>ul>li:nth-child(1)
+2020-04-26 17:51:54,181 - INFO - 点击元素 by div.box-shadow>button:nth-child(1)
+2020-04-26 17:51:55,344 - INFO - 4. 姓名不填、输入性别、手机号、是否主职
+2020-04-26 17:52:01,635 - INFO - 点击元素 by //input[@placeholder="请选择性别"]
+2020-04-26 17:52:02,778 - INFO - 点击元素 by //*[contains(@class,"el-select-dropdown__wrap el-scrollbar__wrap")]//*[contains(span,"男")]
+2020-04-26 17:52:03,994 - INFO - 5. 是否主职不选、输入姓名、性别、手机号
+2020-04-26 17:52:09,994 - INFO - 点击元素 by //div[2]/div/section/div/div[4]/div/div[1]/button/i
+2020-04-26 17:52:12,159 - INFO - 点击元素 by div.el-col.el-col-24>button:nth-child(1)
+2020-04-26 17:52:16,642 - INFO - 输入文本张三1
+2020-04-26 17:52:17,131 - INFO - 输入文本18100000004
+2020-04-26 17:52:17,131 - INFO - 点击元素 by //input[@placeholder="请选择性别"]
+2020-04-26 17:52:18,247 - INFO - 点击元素 by //*[contains(@class,"el-select-dropdown__wrap el-scrollbar__wrap")]//*[contains(span,"男")]
+2020-04-26 17:52:19,369 - INFO - 点击元素 by div.box-shadow>button:nth-child(1)
+2020-04-26 17:52:21,035 - INFO - 6. 手机号不填、输入姓名、性别、是否主职
+2020-04-26 17:52:27,035 - INFO - 点击元素 by //div[2]/div/section/div/div[4]/div/div[1]/button/i
+2020-04-26 17:52:29,153 - INFO - 点击元素 by div.el-col.el-col-24>button:nth-child(1)
+2020-04-26 17:52:33,692 - INFO - 输入文本张三1
+2020-04-26 17:52:33,692 - INFO - 点击元素 by //input[@placeholder="请选择性别"]
+2020-04-26 17:52:34,809 - INFO - 点击元素 by //*[contains(@class,"el-select-dropdown__wrap el-scrollbar__wrap")]//*[contains(span,"男")]
+2020-04-26 17:52:35,927 - INFO - 点击元素 by div.block-contect.el-col.el-col-24>div>form>div:nth-child(2)>div>div>div>div>input
+2020-04-26 17:52:37,045 - INFO - 点击元素 by [x-placement="bottom-start"]>div>div>ul>li:nth-child(1)
+2020-04-26 17:52:38,157 - INFO - 点击元素 by div.box-shadow>button:nth-child(1)
+2020-04-26 17:52:39,349 - INFO - 7. 输入非11位手机号码
+2020-04-26 17:52:45,944 - INFO - 输入文本181000000054
+2020-04-26 17:52:45,944 - INFO - 点击元素 by div.box-shadow>button:nth-child(1)
+2020-04-26 17:52:47,065 - INFO - 8. 输入非运营商发行的前三位号码
+2020-04-26 17:52:53,574 - INFO - 输入文本11000000005
+2020-04-26 17:52:53,575 - INFO - 点击元素 by div.box-shadow>button:nth-child(1)
+2020-04-26 17:52:54,716 - INFO - 9. 输入联系电话格式不正确
+2020-04-26 17:53:01,303 - INFO - 输入文本181-0000-0006
+2020-04-26 17:53:01,304 - INFO - 点击元素 by div.box-shadow>button:nth-child(1)
+2020-04-26 17:53:02,506 - INFO - 10. 输入相同的手机号
+2020-04-26 17:53:09,032 - INFO - 输入文本18100000001
+2020-04-26 17:53:09,033 - INFO - 点击元素 by div.box-shadow>button:nth-child(1)
+2020-04-26 17:53:10,174 - INFO - 点击元素 by //div[2]/div/section/div/div[4]/div/div[1]/button/i
+2020-04-26 17:53:12,312 - INFO - 11. 输入相同的邮箱地址
+2020-04-26 17:53:15,313 - INFO - 12. 输入错误的邮箱地址
+2020-04-26 17:53:18,314 - INFO - 13. 输入工号重复
+2020-04-26 17:53:21,315 - INFO - 点击元素 by div.el-col.el-col-24>button:nth-child(1)
+2020-04-26 17:53:25,857 - INFO - 输入文本张四1
+2020-04-26 17:53:26,428 - INFO - 输入文本18100000007
+2020-04-26 17:53:26,428 - INFO - 点击元素 by //input[@placeholder="请选择性别"]
+2020-04-26 17:53:27,552 - INFO - 点击元素 by //*[contains(@class,"el-select-dropdown__wrap el-scrollbar__wrap")]//*[contains(span,"男")]
+2020-04-26 17:53:28,929 - INFO - 点击元素 by div.block-contect.el-col.el-col-24>div>form>div:nth-child(2)>div>div>div>div>input
+2020-04-26 17:53:30,039 - INFO - 点击元素 by [x-placement="bottom-start"]>div>div>ul>li:nth-child(1)
+2020-04-26 17:53:31,179 - INFO - 点击元素 by div.box-shadow>button:nth-child(1)
+2020-04-26 17:53:32,368 - INFO - 点击元素 by //div[2]/div/section/div/div[4]/div/div[1]/button/i
+2020-04-26 17:53:34,491 - INFO - 14. 序号小于0
+2020-04-26 17:53:58,031 - WARNING - 查找元素超时: div.block-contect.el-col.el-col-24>div>form>div:nth-child(4)>div>div>div>input
+2020-04-26 17:54:18,568 - WARNING - 查找元素超时: .el-form-item__error
+2020-04-26 17:54:18,587 - ERROR - 执行失败
+2020-04-26 17:54:18,587 - INFO - 点击元素 by //div[2]/div/section/div/div[4]/div/div[1]/button/i
+2020-04-26 17:54:28,693 - WARNING - 查找元素超时: //div[2]/div/section/div/div[4]/div/div[1]/button/i
+2020-04-26 17:54:29,715 - INFO - 15. 序号不为整数
+2020-04-26 17:54:53,269 - WARNING - 查找元素超时: div.block-contect.el-col.el-col-24>div>form>div:nth-child(4)>div>div>div>input
+2020-04-26 17:55:13,851 - WARNING - 查找元素超时: .el-form-item__error
+2020-04-26 17:55:13,872 - ERROR - 执行失败
+2020-04-26 17:55:13,873 - INFO - 点击元素 by //div[2]/div/section/div/div[4]/div/div[1]/button/i
+2020-04-26 17:55:23,968 - WARNING - 查找元素超时: //div[2]/div/section/div/div[4]/div/div[1]/button/i
+2020-04-26 17:55:24,990 - INFO - 16. 序号超过最大值
+2020-04-26 17:55:27,990 - INFO - 点击元素 by div.el-col.el-col-24>button:nth-child(1)
+2020-04-26 17:55:32,498 - INFO - 输入文本张四1
+2020-04-26 17:55:32,953 - INFO - 输入文本18100000010
+2020-04-26 17:55:32,953 - INFO - 点击元素 by //input[@placeholder="请选择性别"]
+2020-04-26 17:55:34,059 - INFO - 点击元素 by //*[contains(@class,"el-select-dropdown__wrap el-scrollbar__wrap")]//*[contains(span,"男")]
+2020-04-26 17:55:35,273 - INFO - 点击元素 by div.block-contect.el-col.el-col-24>div>form>div:nth-child(2)>div>div>div>div>input
+2020-04-26 17:55:36,391 - INFO - 点击元素 by [x-placement="bottom-start"]>div>div>ul>li:nth-child(1)
+2020-04-26 17:55:38,114 - INFO - 输入文本1111111111111111
+2020-04-26 17:55:38,115 - INFO - 点击元素 by div.box-shadow>button:nth-child(1)
+2020-04-26 17:55:59,717 - WARNING - 查找元素超时: .el-form-item__error
+2020-04-26 17:55:59,737 - ERROR - 执行失败
+2020-04-26 17:55:59,739 - INFO - 17. 所属部门选择企业
+2020-04-26 17:56:02,739 - INFO - 点击元素 by div.el-col.el-col-24>button:nth-child(1)
